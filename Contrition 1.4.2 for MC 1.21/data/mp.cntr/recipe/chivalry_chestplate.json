@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:smithing_transform",
+  "category": "equipment",
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:chainmail_chestplate"
+  },
+  "addition": {
+    "item": "minecraft:netherite_scrap"
+  },
+  "result": {
+    "id": "minecraft:chainmail_chestplate",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "{\"text\":\"Reinforced Chestplate\",\"color\":\"#FF55FF\",\"italic\":false}",
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:generic.max_health",
+          "id": "mp.cntr.health_chestplate",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "chest"
+        },
+        {
+          "type": "minecraft:generic.armor",
+          "id": "mp.cntr.armor_chestplate",
+          "amount": 5,
+          "operation": "add_value",
+          "slot": "chest"
+        }
+      ],
+      "minecraft:custom_data": {
+        "mp.cntr.recipe": 4,
+        "mp.cntr.kill": 1
+      }
+    }
+  }
+}

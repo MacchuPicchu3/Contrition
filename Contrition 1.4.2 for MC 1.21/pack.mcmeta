@@ -1,0 +1,11 @@
+ {
+       "id": "mp.cntr",
+       "pack": {
+           "pack_format": 48,
+           "supported_formats": {
+            "min_inclusive": 46,
+            "max_inclusive": 48
+           },
+           "description": {"text":"New custom features and items for the Attrition data pack!","color":"#AAAAAA"}
+       }
+   }

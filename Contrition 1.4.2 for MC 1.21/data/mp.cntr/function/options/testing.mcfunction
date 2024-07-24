@@ -1,0 +1,7 @@
+#initiates testing conditions
+give @s minecraft:crafting_table 1
+give @s minecraft:smithing_table 1
+xp add @s 150 levels
+
+#gives shulker box
+give @s light_blue_shulker_box[custom_name='{"text":"Contrition testing kit"}',container=[{slot:0,item:{id:"minecraft:netherite_scrap",count:4}},{slot:1,item:{id:"minecraft:chainmail_helmet",count:1}},{slot:2,item:{id:"minecraft:chainmail_chestplate",count:1}},{slot:3,item:{id:"minecraft:chainmail_leggings",count:1}},{slot:4,item:{id:"minecraft:chainmail_boots",count:1}},{slot:5,item:{id:"minecraft:netherite_upgrade_smithing_template",count:4}},{slot:9,item:{id:"minecraft:netherite_ingot",count:16}},{slot:10,item:{id:"minecraft:totem_of_undying",count:1}},{slot:11,item:{id:"minecraft:totem_of_undying",count:1}},{slot:12,item:{id:"minecraft:totem_of_undying",count:1}},{slot:13,item:{id:"minecraft:totem_of_undying",count:1}},{slot:14,item:{id:"minecraft:experience_bottle",count:16}},{slot:18,item:{id:"minecraft:glass_bottle",count:16}},{slot:19,item:{id:"minecraft:apple",count:16}},{slot:20,item:{id:"minecraft:ghast_tear",count:16}},{slot:21,item:{id:"minecraft:fermented_spider_eye",count:8}},{slot:22,item:{id:"minecraft:spider_eye",count:8}}]] 1

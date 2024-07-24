@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:smithing_transform",
+  "category": "equipment",
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:chainmail_helmet"
+  },
+  "addition": {
+    "item": "minecraft:netherite_scrap"
+  },
+  "result": {
+    "id": "minecraft:chainmail_helmet",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "{\"text\":\"Reinforced Helmet\",\"color\":\"#FF55FF\",\"italic\":false}",
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:generic.max_health",
+          "id": "mp.cntr.health_helmet",
+          "amount": 2,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "type": "minecraft:generic.armor",
+          "id": "mp.cntr.armor_helmet",
+          "amount": 2,
+          "operation": "add_value",
+          "slot": "head"
+        }
+      ],
+      "minecraft:custom_data": {
+        "mp.cntr.recipe": 3,
+        "mp.cntr.kill": 1
+      }
+    }
+  }
+}

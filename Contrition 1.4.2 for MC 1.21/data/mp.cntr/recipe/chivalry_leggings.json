@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:smithing_transform",
+  "category": "equipment",
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:chainmail_leggings"
+  },
+  "addition": {
+    "item": "minecraft:netherite_scrap"
+  },
+  "result": {
+    "id": "minecraft:chainmail_leggings",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "{\"text\":\"Reinforced Leggings\",\"color\":\"#FF55FF\",\"italic\":false}",
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:generic.max_health",
+          "id": "mp.cntr.health_leggings",
+          "amount": 2,
+          "operation": "add_value",
+          "slot": "legs"
+        },
+        {
+          "type": "minecraft:generic.armor",
+          "id": "mp.cntr.armor_leggings",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "legs"
+        }
+      ],
+      "minecraft:custom_data": {
+        "mp.cntr.recipe": 5,
+        "mp.cntr.kill": 1
+      }
+    }
+  }
+}
